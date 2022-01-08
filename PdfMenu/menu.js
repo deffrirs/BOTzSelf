@@ -224,7 +224,7 @@ const menunya = (prefix) => {
 *┃*➤ ${prefix}tebakumur
 *┃*➤ ${prefix}jadian
 *┃*➤ ${prefix}jodoh
-*┃*➤ ${prefix}artinama
+*┃*➤ ${prefix}artinama (ERROR)
 *┗━━━━━━━━*
 
 ┏━➤ *Stalk MenuT* 
