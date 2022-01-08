@@ -141,7 +141,7 @@ const menunya = (prefix) => {
 *┗━━━━━━━━*
 
 ┏━➤ *Game Menu* 
-*┃*➤ ${prefix}dare
+*┃*➤ ${prefix}dare (ERROR)
 *┃*➤ ${prefix}slots
 *┃*➤ ${prefix}tebakgambar
 *┃*➤ ${prefix}tebakjenaka
@@ -150,7 +150,7 @@ const menunya = (prefix) => {
 *┃*➤ ${prefix}tebakkimia
 *┃*➤ ${prefix}tebaklirik
 *┃*➤ ${prefix}tebaktebakan
-*┃*➤ ${prefix}truth
+*┃*➤ ${prefix}truth (ERROR)
 *┗━━━━━━━━*
 
 ┏━➤ *Search Menu* 
