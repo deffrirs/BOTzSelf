@@ -1357,7 +1357,7 @@ Jam : ${time}
 HARI : ${week}, ${weton}, ${date}`
 oy =`
 ┏━➤ *Game Menu* 
-*┃*➤ ${prefix}dare
+*┃*➤ ${prefix}dare (ERROR)
 *┃*➤ ${prefix}slots
 *┃*➤ ${prefix}tebakgambar
 *┃*➤ ${prefix}tebakjenaka
@@ -1366,7 +1366,7 @@ oy =`
 *┃*➤ ${prefix}tebakkimia
 *┃*➤ ${prefix}tebaklirik
 *┃*➤ ${prefix}tebaktebakan
-*┃*➤ ${prefix}truth
+*┃*➤ ${prefix}truth (ERROR)
 *┗━━━━━━━━*`
 but = [
           { buttonId: `${prefix}rulesbot`, buttonText: { displayText: '♋RULES BOT♋' }, type: 1 }
@@ -1550,7 +1550,7 @@ trans = `[ 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧 ]
 *┗━━━━━━━━*
 
 ┏━➤ *Game Menu* 
-*┃*➤ ${prefix}dare
+*┃*➤ ${prefix}dare (ERROR)
 *┃*➤ ${prefix}slots
 *┃*➤ ${prefix}tebakgambar
 *┃*➤ ${prefix}tebakjenaka
@@ -1559,7 +1559,7 @@ trans = `[ 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧 ]
 *┃*➤ ${prefix}tebakkimia
 *┃*➤ ${prefix}tebaklirik
 *┃*➤ ${prefix}tebaktebakan
-*┃*➤ ${prefix}truth
+*┃*➤ ${prefix}truth (ERROR)
 *┗━━━━━━━━*
 
 ┏━➤ *Search Menu* 
@@ -2058,159 +2058,123 @@ break
 case 'facebook':
 simple.updatePresence(from, Presence.recording)
 reply('_*Tunggu Sebentar*_. . .')
-simple.updatePresence(from, Presence.recording)		
-img =  fs.readFileSync('./poto/herman.jpg')
-teks = `https://m.apkpure.com/id/delta-fb-lite-pro/gudaljaran.jaranpolah.deltafblitepro/download
-*Tuh Kak Tinggal Download Aja*`
- 
- but = [
-          { buttonId: `${prefix}command`, buttonText: { displayText: '×͜×MENU' }, type: 1 },
-          { buttonId: `${prefix}userinfo`, buttonText: { displayText: '×͜×YOUR INFO' }, type: 1 },
+simple.updatePresence(from, Presence.recording)
+emm =
+`https://m.apkpure.com/id/delta-fb-lite-pro/gudaljaran.jaranpolah.deltafblitepro/download`
+oy =`
+Jangan Lupa Subscribe DEFFBOTz`
+but = [
+          { buttonId: `${prefix}owner`, buttonText: { displayText: '🤴 OWNER' }, type: 1 }
         ]
-  
- 
-        sendButVideo(from, teks, trans, img, but, {quoted: fgif})
-        simple.updatePresence(from, Presence.recording)
+          sendButton(from, emm, oy, but)
 break
 case 'whatsapp':
 simple.updatePresence(from, Presence.recording)
 reply('_*Tunggu Sebentar*_. . .')
-simple.updatePresence(from, Presence.recording)		
-img =  fs.readFileSync('./poto/herman.jpg')
-teks = `https://eztekno.com/wa-eztekno/gbwhatsapp
-*Tuh Kak Tinggal Download Aja*`
- 
- but = [
-          { buttonId: `${prefix}command`, buttonText: { displayText: '×͜×MENU' }, type: 1 },
-          { buttonId: `${prefix}userinfo`, buttonText: { displayText: '×͜×YOUR INFO' }, type: 1 },
+simple.updatePresence(from, Presence.recording)
+emm =
+`https://eztekno.com/wa-eztekno/gbwhatsapp`
+oy =`
+Jangan Lupa Subscribe DEFFBOTz`
+but = [
+          { buttonId: `${prefix}owner`, buttonText: { displayText: '🤴 OWNER' }, type: 1 }
         ]
-  
- 
-        sendButVideo(from, teks, trans, img, but, {quoted: fgif})
-        simple.updatePresence(from, Presence.recording)
+          sendButton(from, emm, oy, but)
 break
 case 'instagram':
 simple.updatePresence(from, Presence.recording)
 reply('_*Tunggu Sebentar*_. . .')
-simple.updatePresence(from, Presence.recording)		
-img =  fs.readFileSync('./poto/herman.jpg')
-teks = `https://moddroid.co/instagram.html
-*Tuh Kak Tinggal Download Aja*`
- 
- but = [
-          { buttonId: `${prefix}command`, buttonText: { displayText: '×͜×MENU' }, type: 1 },
-          { buttonId: `${prefix}userinfo`, buttonText: { displayText: '×͜×YOUR INFO' }, type: 1 },
+simple.updatePresence(from, Presence.recording)
+emm =
+`https://moddroid.co/instagram.html`
+oy =`
+Jangan Lupa Subscribe DEFFBOTz`
+but = [
+          { buttonId: `${prefix}owner`, buttonText: { displayText: '🤴 OWNER' }, type: 1 }
         ]
-  
- 
-        sendButVideo(from, teks, trans, img, but, {quoted: fgif})
-        simple.updatePresence(from, Presence.recording)
+          sendButton(from, emm, oy, but)
 break
 case 'twitter':
 simple.updatePresence(from, Presence.recording)
 reply('_*Tunggu Sebentar*_. . .')
-simple.updatePresence(from, Presence.recording)		
-img =  fs.readFileSync('./poto/herman.jpg')
-teks = `https://freemattandgrace.com/twitter-apk-mod/
-*Tuh Kak Tinggal Download Aja*`
- 
- but = [
-          { buttonId: `${prefix}command`, buttonText: { displayText: '×͜×MENU' }, type: 1 },
-          { buttonId: `${prefix}userinfo`, buttonText: { displayText: '×͜×YOUR INFO' }, type: 1 },
+simple.updatePresence(from, Presence.recording)
+emm =
+`https://freemattandgrace.com/twitter-apk-mod/`
+oy =`
+Jangan Lupa Subscribe DEFFBOTz`
+but = [
+          { buttonId: `${prefix}owner`, buttonText: { displayText: '🤴 OWNER' }, type: 1 }
         ]
-  
- 
-        sendButVideo(from, teks, trans, img, but, {quoted: fgif})
-        simple.updatePresence(from, Presence.recording)
+          sendButton(from, emm, oy, but)
 break
 case 'kinemaster':
 simple.updatePresence(from, Presence.recording)
 reply('_*Tunggu Sebentar*_. . .')
-simple.updatePresence(from, Presence.recording)		
-img =  fs.readFileSync('./poto/herman.jpg')
-teks = `https://loop.co.id/kinemaster-pro-mod-apk/
-*Tuh Kak Tinggal Download Aja*`
- 
- but = [
-          { buttonId: `${prefix}command`, buttonText: { displayText: '×͜×MENU' }, type: 1 },
-          { buttonId: `${prefix}userinfo`, buttonText: { displayText: '×͜×YOUR INFO' }, type: 1 },
+simple.updatePresence(from, Presence.recording)
+emm =
+`https://loop.co.id/kinemaster-pro-mod-apk/`
+oy =`
+Jangan Lupa Subscribe DEFFBOTz`
+but = [
+          { buttonId: `${prefix}owner`, buttonText: { displayText: '🤴 OWNER' }, type: 1 }
         ]
-  
- 
-        sendButVideo(from, teks, trans, img, but, {quoted: fgif})
-        simple.updatePresence(from, Presence.recording)
+          sendButton(from, emm, oy, but)
 break
 case 'zarchiver':
 simple.updatePresence(from, Presence.recording)
 reply('_*Tunggu Sebentar*_. . .')
-simple.updatePresence(from, Presence.recording)		
-img =  fs.readFileSync('./poto/herman.jpg')
-teks = `https://youtu.be/k_M3dTyyoHc [Jangan Lupa Subscribe]
-*Tuh Kak Tinggal Download Aja*`
- 
- but = [
-          { buttonId: `${prefix}command`, buttonText: { displayText: '×͜×MENU' }, type: 1 },
-          { buttonId: `${prefix}userinfo`, buttonText: { displayText: '×͜×YOUR INFO' }, type: 1 },
+simple.updatePresence(from, Presence.recording)
+emm =
+`https://youtu.be/k_M3dTyyoHc [Jangan Lupa Subscribe]`
+oy =`
+Jangan Lupa Subscribe DEFFBOTz`
+but = [
+          { buttonId: `${prefix}owner`, buttonText: { displayText: '🤴 OWNER' }, type: 1 }
         ]
-  
- 
-        sendButVideo(from, teks, trans, img, but, {quoted: fgif})
-        simple.updatePresence(from, Presence.recording)
+          sendButton(from, emm, oy, but)
 break
 case 'alightmotion':
 simple.updatePresence(from, Presence.recording)
 reply('_*Tunggu Sebentar*_. . .')
-simple.updatePresence(from, Presence.recording)		
-img =  fs.readFileSync('./poto/herman.jpg')
-teks = `https://apkdone.com/id/alight-motion/
-*Tuh Kak Tinggal Download Aja*`
- 
- but = [
-          { buttonId: `${prefix}command`, buttonText: { displayText: '×͜×MENU' }, type: 1 },
-          { buttonId: `${prefix}userinfo`, buttonText: { displayText: '×͜×YOUR INFO' }, type: 1 },
+simple.updatePresence(from, Presence.recording)
+emm =
+`https://apkdone.com/id/alight-motion/`
+oy =`
+Jangan Lupa Subscribe DEFFBOTz`
+but = [
+          { buttonId: `${prefix}owner`, buttonText: { displayText: '🤴 OWNER' }, type: 1 }
         ]
-  
- 
-        sendButVideo(from, teks, trans, img, but, {quoted: fgif})
-        simple.updatePresence(from, Presence.recording)
+          sendButton(from, emm, oy, but)
 break
 case 'minecraft':
 simple.updatePresence(from, Presence.recording)
 reply('_*Tunggu Sebentar*_. . .')
-simple.updatePresence(from, Presence.recording)		
-img =  fs.readFileSync('./poto/herman.jpg')
-teks = `https://www.happymoddownload.com/minecraft-pocket-edition-apps-mod/com.mojang.minecraftpe/downloading.html
-*Tuh Kak Tinggal Download Aja*`
- 
- but = [
-          { buttonId: `${prefix}command`, buttonText: { displayText: '×͜×MENU' }, type: 1 },
-          { buttonId: `${prefix}userinfo`, buttonText: { displayText: '×͜×YOUR INFO' }, type: 1 },
+simple.updatePresence(from, Presence.recording)
+emm =
+`https://www.happymoddownload.com/minecraft-pocket-edition-apps-mod/com.mojang.minecraftpe/downloading.html`
+oy =`
+Jangan Lupa Subscribe DEFFBOTz`
+but = [
+          { buttonId: `${prefix}owner`, buttonText: { displayText: '🤴 OWNER' }, type: 1 }
         ]
-  
- 
-        sendButVideo(from, teks, trans, img, but, {quoted: fgif})
-        simple.updatePresence(from, Presence.recording)
+          sendButton(from, emm, oy, but)
 break
 case 'gtasanlite':
 simple.updatePresence(from, Presence.recording)
 reply('_*Tunggu Sebentar*_. . .')
-simple.updatePresence(from, Presence.recording)		
-img =  fs.readFileSync('./poto/herman.jpg')
-teks = `[ LINK APK: https://www.mediafire.com/file/z6ms3ovfqftzwsh/APK+GTA+SA+V1.0.8.7z/file ]
+simple.updatePresence(from, Presence.recording)
+emm =
+`[ LINK APK: https://www.mediafire.com/file/z6ms3ovfqftzwsh/APK+GTA+SA+V1.0.8.7z/file ]
 
 [ LINK OBB: https://www.mediafire.com/file/3xl7gqpoktukhg4/OBB+GTA+SA+ORIGINAL+V1.0.8.7z/file ]
 
-Password: Subscribe Fadil Pa
-*Tuh Kak Tinggal Download Aja*`
- 
- but = [
-          { buttonId: `${prefix}command`, buttonText: { displayText: '×͜×MENU' }, type: 1 },
-          { buttonId: `${prefix}userinfo`, buttonText: { displayText: '×͜×YOUR INFO' }, type: 1 },
+Password: Subscribe Fadil Pa`
+oy =`
+Jangan Lupa Subscribe DEFFBOTz`
+but = [
+          { buttonId: `${prefix}owner`, buttonText: { displayText: '🤴 OWNER' }, type: 1 }
         ]
-  
- 
-        sendButVideo(from, teks, trans, img, but, {quoted: fgif})
-        simple.updatePresence(from, Presence.recording)
+          sendButton(from, emm, oy, but)
 break
 
 //━━━━━━━━━━━━━━━[ FITUR ISLAMI ]━━━━━━━━━━━━━━━━━//
@@ -3271,11 +3235,11 @@ break
 //━━━━━━━━━━━━━━━[ FITUR GAME ]━━━━━━━━━━━━━━━━━//
 
 case 'truth':
-trh = await fetchJson(`https://zeroyt7-api.xyz/truth?apikey=${apikey5}`)
+trh = await fetchJson(`https://zeroyt7-api.xyz/truth?apikey=R9I4zuPC}`)
 reply(trh.result)
 break
 case 'dare':
-dr = await fetchJson(`https://zeroyt7-api.xyz/dare?apikey=${apikey5}`)
+dr = await fetchJson(`https://zeroyt7-api.xyz/truth?apikey=R9I4zuPC}`)
 reply(dr.result)
 break
 case 'tebakkalimat':
