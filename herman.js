@@ -1197,7 +1197,7 @@ oy =`
 *┃*➤ ${prefix}tebakumur
 *┃*➤ ${prefix}jadian
 *┃*➤ ${prefix}jodoh
-*┃*➤ ${prefix}artinama
+*┃*➤ ${prefix}artinama (ERROR) 
 *┗━━━━━━━━*`
 but = [
           { buttonId: `${prefix}rulesbot`, buttonText: { displayText: '⛅RULES BOT⛅' }, type: 1 }
@@ -1633,7 +1633,7 @@ trans = `[ 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧 ]
 *┃*➤ ${prefix}tebakumur
 *┃*➤ ${prefix}jadian
 *┃*➤ ${prefix}jodoh
-*┃*➤ ${prefix}artinama
+*┃*➤ ${prefix}artinama (ERROR)
 *┗━━━━━━━━*
 
 ┏━➤ *Stalk MenuT* 
